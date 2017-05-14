@@ -32,7 +32,7 @@ Scope You have just been contracted by Old Games, New Programs LLC. They have as
 * [Math.random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 
 ***
-##Instructions
+## Instructions
 
 You are given Starter Code for this project which you must clone into your own workspace. 
 
