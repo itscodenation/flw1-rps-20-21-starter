@@ -1,6 +1,7 @@
 # Rock Paper Scissors Project
 
-Project Example - https://scriptedcurriculum.github.io/advanced_RPS/
+Project Example: https://scriptedcurriculum.github.io/advanced_RPS/
+Number of Classes: 3
 
 ## Overview: 
 Scope You have just been contracted by Old Games, New Programs LLC. They have asked you to make a webapp for Rock, Paper, Scissors. This project was originally contracted to an intern that did not finish the project. Your manager has given you one week to take the former intern's starter code and make a fully functioning game. You will need to use html, css, javascript and jquery to build an rock paper scissors game! 
@@ -35,6 +36,4 @@ Scope You have just been contracted by Old Games, New Programs LLC. They have as
 * [JQuery Events](http://api.jquery.com/category/events/)
 * [Math.random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 
-## Number of Classes: 3
-## Rubric: 
-Click Here
+
