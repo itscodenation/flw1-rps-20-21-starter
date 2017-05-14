@@ -1,6 +1,6 @@
 # Rock Paper Scissors Project
 
-Project Example: https://scriptedcurriculum.github.io/advanced_RPS/
+Project Example: https://scriptedcurriculum.github.io/advanced_RPS/ <br>
 Number of Classes: 3
 
 ## Overview: 
