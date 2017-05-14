@@ -16,13 +16,6 @@ Scope You have just been contracted by Old Games, New Programs LLC. They have as
 * Project must be hosted on gh-pages branch of with a working url
 * Add links to working url and project source code to your portfolio with an image and short description of the project
 
-## Questions for Presentation:
-* How did you come up with your naming conventions?
-* Why did you create your functions the way you did? (why not more/fewer functions?)
-* What issues/struggles did you have while doing this?
-* How did you debug this?  What were your stages?
-* Identify various vocabulary in code of teacher’s choice.
-
 ## Projects Extensions:
 * Validate input so that it will return “Not valid input” if the user types in a wrong choice 
 * Will accept any form of a word regardless of capitalization ie “Rock” “rock” roCk”
