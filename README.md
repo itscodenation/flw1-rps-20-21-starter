@@ -31,4 +31,37 @@ Scope You have just been contracted by Old Games, New Programs LLC. They have as
 * [JQuery Events](http://api.jquery.com/category/events/)
 * [Math.random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 
+***
+##Instructions
+
+You are given Starter Code for this project which you must clone into your own workspace. 
+
+### 1) Clone this repo into your own Cloud9 account workspace
+1. Copy the "clone URL" from this repo
+2. In your Cloud9 dashboard click on the green "Create New Workspace" button and select "Clone from URL"
+
+Once the workspace has been processed, check to be sure it is up to date by running ` git status ` in the terminal. You should receive a messege telling you that your branch is up to date.   
+![Imgur](http://i.imgur.com/RKdsduL.png)
+
+**NOTE: It is common practice to push your changes to your GitHub repository often. It is recommended that you make a push after every major change. Through the course of completing this project you should make 7-10 pushes to GitHub. Your manager will be rating your progress.**
+
+To push to GitHub run the following commands in your terminal:  
+`git status`  
+`git add .`  
+`git commit -m "example comment"`  
+`git push origin master`
+
+
+### 2) index.html
+The HTML file in this repo is not fully complete as of right now. Follow the comments within the file before moving on to the script.js file.
+
+### 3) script.js
+Use the comments within the script.js file to help you complete the missing components of this game. Luckily, the former intern left very detailed comments that are easy to follow.
+
+### Bonus) 
+Your Manager has offered a stipend of $500 for each of the bonus extensions (see above)  
+
+
+## Homework
+Instructor will assign homework based on progress in class.
 
