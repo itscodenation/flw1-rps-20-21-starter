@@ -1,19 +1,21 @@
 // Under GLOBAL VARIABLES.
   // TASK 1: 
-    // Declare four global variables. choices, computerChoice, userChoice, and winner.  
+    // Declare four global variables for intial state of the list of choices, the computerChoice, the userChoice, and the winner.  
 
 // Under DOCUMENT READY FUNCTION.
   // TASK 2:
     // Create your document ready function
   // TASK 3:  
     // Create a click hander for when the "Shoot!" button is clicked, takes in the user choice from the input docs
+    // Displays the user choices to the output screen
   // TASK 4:
     // Randomly chooses among 'rock', 'paper', or 'scissors' from the choices array 
+    // Displays the user choices to the output screen
   // TASK 5: 
     // Compares the user choice and the computer choice to determine who won. 
-  // TASK 6:
-    // Displays the user and computer choices as well as the winner to the output screen
+    // Displays the user winner to the output screen
     // Clears the input box for the next choice
+    
 
 // Under FUNCTIONS
   // TASK 7:
@@ -23,7 +25,7 @@
     // updateHtml take two parameters, a selector and text, and upadtes the HTML
 
 // *************************** YOUR CODE BELOW *******************************
-//******************TEST EARLY AND OFTEN USING consol.log() ******************
+//******************TEST EARLY AND OFTEN USING console.log() ******************
 
 //GLOBAL VARIABLES
 
