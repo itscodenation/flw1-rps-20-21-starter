@@ -1,6 +1,6 @@
 # Rock Paper Scissors Project
 
-| # Classes|Example|Planning Doc|Rubric|
+| # classes|Example|Planning Doc|Rubric|
 |:--:|:--:|:--:|:--:|
 | 3 |[Rock-Paper-Scissors](https://scriptedcurriculum.github.io/advanced_rockpaperscissors_solution/)|[Planning Document](https://docs.google.com/document/d/1dddAl5l-A1l0gA-oGxpcCFmlxRJzB7il39QEqmAm2Bs/edit)|[Rubric](https://docs.google.com/document/d/1BlL6dLk1Yzt_QB9pKoHh9si7VRjGPXwAc5NuZP_y0DU/edit)|
 
