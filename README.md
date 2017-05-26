@@ -1,9 +1,8 @@
 # Rock Paper Scissors Project
 
-Number of Classes: 3 <br>
-[Rock-Paper-Scissors Example](https://scriptedcurriculum.github.io/advanced_rockpaperscissors_solution/) <br>
-[Planning Document](https://docs.google.com/document/d/1dddAl5l-A1l0gA-oGxpcCFmlxRJzB7il39QEqmAm2Bs/edit) <br>
-[Rubric](https://docs.google.com/document/d/1BlL6dLk1Yzt_QB9pKoHh9si7VRjGPXwAc5NuZP_y0DU/edit) 
+| # Classes|Example|Planning Doc|Rubric|
+|:--:|:--:|:--:|:--:|
+| 3 |[Rock-Paper-Scissors](https://scriptedcurriculum.github.io/advanced_rockpaperscissors_solution/)|[Planning Document](https://docs.google.com/document/d/1dddAl5l-A1l0gA-oGxpcCFmlxRJzB7il39QEqmAm2Bs/edit)|[Rubric](https://docs.google.com/document/d/1BlL6dLk1Yzt_QB9pKoHh9si7VRjGPXwAc5NuZP_y0DU/edit)|
 
 ## Overview: 
 This unit will ask the students to create a Rock, Paper, Scissors game. This particular project is completed in two stages. Students will first create a functioning game that operates in the console. Then they will create a fully functioning game that operates with clicking events.
