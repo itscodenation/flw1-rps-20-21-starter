@@ -1,11 +1,10 @@
 // Under GLOBAL VARIABLES.
-  // TASK 1: 
+  // TASK 2: 
     // Declare four global variables for intial state of the list of choices, the computerChoice, the userChoice, and the winner.  
 
 // Under DOCUMENT READY FUNCTION.
-  // TASK 2:
+  // TASK 3:
     // Create your document ready function
-  // TASK 3:  
     // Create a click hander for when the "Shoot!" button is clicked, takes in the user choice from the input docs
     // Displays the user choices to the output screen
   // TASK 4:
@@ -14,9 +13,9 @@
   // TASK 5: 
     // Compares the user choice and the computer choice to determine who won. 
     // Displays the user winner to the output screen
+  //TASK 6
     // Clears the input box for the next choice
     
-
 // Under FUNCTIONS
   // TASK 7:
     // Refactor your code into functions  
@@ -26,6 +25,7 @@
 
 // *************************** YOUR CODE BELOW *******************************
 //******************TEST EARLY AND OFTEN USING console.log() ******************
+//****************** SERIOUSLY TEST USING console.log()!!! ******************
 
 //GLOBAL VARIABLES
 
