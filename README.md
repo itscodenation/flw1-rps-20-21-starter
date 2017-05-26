@@ -21,7 +21,6 @@ In this project you will create a Rock, Paper, Scissors game! Using HTML, CSS, J
 * Validate input so that it will return “Not valid input” if the user types in a wrong choice 
 * Will accept any form of a word regardless of capitalization ie “Rock” “rock” roCk”
 * Will keep track of wins and losses. 
-* Add CSS to this project using Bootstrap. Give it it's own theme
 * Create a game with more variety in throwing options. Example: [Rock-Paper-Scissors-Lizard-Spock](http://en.wikipedia.org/wiki/Rock-paper-scissors-lizard-Spock)
 
 ## References/Tools
