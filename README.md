@@ -56,10 +56,10 @@ To push to GitHub run the following commands in your terminal:
 The HTML file in this repo is not fully complete as of right now. Follow the comments within the file before moving on to the script.js file.
 
 ### 3) script.js
-Use the comments within the script.js file to help you complete the missing components of this game. Luckily, the former intern left very detailed comments that are easy to follow.
+Use the comments within the script.js file to help you complete the missing components of this game. Follow the comments within the file before moving on to the script.js file.
 
-### Bonus) 
-Your Manager has offered a stipend of $500 for each of the bonus extensions (see above)  
+### 4) Extensions 
+See above for project extensions. 
 
 
 ## Homework
