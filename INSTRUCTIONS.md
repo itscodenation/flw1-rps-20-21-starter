@@ -35,9 +35,11 @@ In this project you will create a Rock, Paper, Scissors game! Using HTML, CSS, J
 You are given Starter Code for this project which you must fork and clone into your own workspace. 
 
 ### 1) Fork this repo to your own github account 
-1. Click fork in the top righ corner of this page
+1. Click fork in the top right corner of this page
 
-### 2) Clone this repo into your own Cloud9 account workspace
+### 2) Create your README.md file
+
+### 3) Clone this repo into your own Cloud9 account workspace
 1. Copy the "clone URL" from this repo
 2. In your Cloud9 dashboard click on the green "Create New Workspace" button and select "Clone from URL"
 
@@ -52,14 +54,13 @@ To push to GitHub run the following commands in your terminal:
 `git commit -m "example comment"`  
 `git push origin master`
 
-
-### 3) index.html
+### 4) index.html
 The HTML file in this repo is not fully complete as of right now. Follow the comments within the file before moving on to the script.js file.
 
-### 4) script.js
-Use the comments within the script.js file to help you complete the missing components of this game. Follow the comments within the file before moving on to the script.js file.
+### 5) script.js
+Use the comments within the script.js file to help you complete the missing components of this game. Follow the comments within the file before moving on to the extensions.
 
-### 5) Extensions 
+### 6) Extensions 
 See above for project extensions. 
 
 
