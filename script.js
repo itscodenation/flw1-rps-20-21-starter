@@ -1,6 +1,6 @@
 //Class 1:
     //1.1 
-        //Fork and clone the repo and set up your project workspace and link files
+        // Fork and clone the repo and set up your project workspace and link files
     //1.2 
         // Write HTML for your project
 //Class 2:  
