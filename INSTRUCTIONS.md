@@ -5,7 +5,7 @@
 | 3 |[Rock-Paper-Scissors](https://scriptedcurriculum.github.io/advanced_rockpaperscissors_solution/)|[Planning Document](https://docs.google.com/document/d/1dddAl5l-A1l0gA-oGxpcCFmlxRJzB7il39QEqmAm2Bs/edit)|[Rubric](https://docs.google.com/document/d/1BlL6dLk1Yzt_QB9pKoHh9si7VRjGPXwAc5NuZP_y0DU/edit)|
 
 ## Overview: 
-In this project you will create a Rock, Paper, Scissors game! Using HTML, CSS, JQuery, and Javascrip you will create a fully functioning game that will take user input, genearate a computer choice and display the winner to the screen. You will have three class session to complete this poject.
+In this project you will create a Rock, Paper, Scissors game! Using HTML, CSS, JQuery, and Javascript you will create a fully functioning game that will take user input, genearate a computer choice and display the winner to the screen. You will have three class session to complete this poject.
 
 ## Functionality:
 * Must allow user to pick a choice 
