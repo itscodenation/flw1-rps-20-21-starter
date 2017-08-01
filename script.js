@@ -6,7 +6,7 @@
 //Class 2:  
     //2.1 
         // Declare four global variables for intial state of the list of choices, the computer choice, the user choice, and the winner.  
-        // Create your document ready function, 
+        // Create your document ready function. 
         // Create a click hander for when the "Shoot!" button is clicked, takes in the user choice from the input field, 
         // Display the user choice to the output screen
     //2.2 
