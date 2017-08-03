@@ -31,6 +31,7 @@ In this project you will create a Rock, Paper, Scissors game! Using HTML, CSS, J
 * Create a game with more variety in throwing options. Example: [Rock-Paper-Scissors-Lizard-Spock](http://en.wikipedia.org/wiki/Rock-paper-scissors-lizard-Spock)
 
 ## References/Tools
+* [Advanced Reference Table]()
 * [Script Tag](http://javascript.crockford.com/script.html)
 * [How Jquery Works](http://learn.jquery.com/about-jquery/how-jquery-works/)
 * [JQuery Events](http://api.jquery.com/category/events/)
