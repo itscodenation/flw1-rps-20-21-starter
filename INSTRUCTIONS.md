@@ -7,7 +7,7 @@
 ## Overview: 
 In this project you will create a Rock, Paper, Scissors game! Using HTML, CSS, JQuery, and Javascript you will create a fully functioning game that will take user input, generate a computer choice and display the winner to the screen. You will have three class sessions to complete this project.
 
-## Objectives *Coder's will be able too...*:
+## Objectives:
 1.1) Plan and wireframe a project <br>
 1.2) Create HTML skeleton from a wireframe <br>
 2.1) Create click handlers to take in user input <br>
