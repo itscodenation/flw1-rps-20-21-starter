@@ -7,15 +7,13 @@
 ## Overview: 
 In this project you will create a Rock, Paper, Scissors game! Using HTML, CSS, JQuery, and Javascript you will create a fully functioning game that will take user input, generate a computer choice and display the winner to the screen. You will have three class sessions to complete this project.
 
-## Functionality:
-* Must allow user to pick a choice (rock, paper, scissors). 
-* Computer must randomly pick a choice (rock, paper, scissors).
-* The computer will tell you whether the user or the computer wins the match.
-
-## Project Submission:
-* Project must have ALL changes pushed to GitHub.
-* Project must be hosted on a gh-pages branch with a working url.
-* Add links to working url and project source code to your portfolio with an image and short description of the project.
+## Objectives:
+1.1) plan and wireframe a project
+1.2) create HTML skeleton from a wireframe
+2.1) create click handlers to take in user input
+2.2) access a random element from an array  using Math Library
+3.1) write a conditional statement using the appropriate syntax
+3.2) write a function that takes a parameter and returns a value
 
 ## Projects Extensions:
 * Validate input so that it will return “Not valid input” if the user types in a wrong choice. 
@@ -33,8 +31,7 @@ In this project you will create a Rock, Paper, Scissors game! Using HTML, CSS, J
 1) Fork this repo to your own github account. 
 2) Clone this repo into your own Cloud9 account workspace.
 3) Create your README.md file.
-4) Follow the instuctions in the comments
-
-## Homework
-Instructor will assign homework based on progress in class.
-
+4) Follow the instuctions in the comments to create your project
+5) Push all changes to GitHub.
+6) Host project on gh-pages.
+7) Add links to working url and project source code to your portfolio with an image and short description of the project.
