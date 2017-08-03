@@ -8,12 +8,12 @@
 In this project you will create a Rock, Paper, Scissors game! Using HTML, CSS, JQuery, and Javascript you will create a fully functioning game that will take user input, generate a computer choice and display the winner to the screen. You will have three class sessions to complete this project.
 
 ## Objectives:
-1.1) plan and wireframe a project
-1.2) create HTML skeleton from a wireframe
-2.1) create click handlers to take in user input
-2.2) access a random element from an array  using Math Library
-3.1) write a conditional statement using the appropriate syntax
-3.2) write a function that takes a parameter and returns a value
+1.1) plan and wireframe a project <br>
+1.2) create HTML skeleton from a wireframe <br>
+2.1) create click handlers to take in user input <br>
+2.2) access a random element from an array  using Math Library <br>
+3.1) write a conditional statement using the appropriate syntax <br>
+3.2) write a function that takes a parameter and returns a value <br>
 
 ## Instructions
 1) Fork this repo to your own github account. 
