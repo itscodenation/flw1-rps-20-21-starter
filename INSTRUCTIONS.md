@@ -10,10 +10,10 @@ In this project you will create a Rock, Paper, Scissors game! Using HTML, CSS, J
 ## Objectives:
 1.1) Plan and wireframe a project <br>
 1.2) Create HTML skeleton from a wireframe <br>
-2.1) Create click handlers to take in user input <br>
-2.2) Access a random element from an array  using Math Library <br>
-3.1) Write a conditional statement using the appropriate syntax <br>
-3.2) Write a function that takes a parameter and returns a value <br>
+2.1) using console.log() and debugger to debug code
+2.2) Create click handlers to take in user input <br>
+3.1) Access a random element from an array  using Math Library <br>
+3.2) Write a conditional statement using the appropriate syntax <br>
 
 ## Instructions
 1) Fork this repo to your own github account. 
