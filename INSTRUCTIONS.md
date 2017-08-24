@@ -5,7 +5,7 @@
 | 3 |[Rock-Paper-Scissors](https://scriptedcurriculum.github.io/advanced_rockpaperscissors_solution/)|[Planning Document](https://docs.google.com/document/d/1dddAl5l-A1l0gA-oGxpcCFmlxRJzB7il39QEqmAm2Bs/edit)|[Rubric](https://drive.google.com/open?id=1a_ycLDc8Tt4heWRcZsPDpKqovcqkGZ1DX6MpOr1vhB0)|
 
 ## Overview: 
-In this unit coders will create a Rock, Paper, Scissors game. The Rock, Paper, Scissors game will take user choice, generate a computer choice, and display the winner to the screen. In order to create this project, coders will use jQuery to take user input and display data, arrays to store user choice, the Math Library to generate a random index, and conditionals determine the winner.
+In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, Scissors game will take user choice, generate a computer choice, and display the winner to the screen. To create this project, coders will use jQuery to take user input and display data, arrays to store user choice, the Math Library to generate a random index, and conditionals determine the winner.
 
 ## Objectives:
 1.1) Plan and wireframe a project <br>
