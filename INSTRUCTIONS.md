@@ -10,8 +10,8 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 ## Objectives:
 1.1) Plan and wireframe a project <br>
 1.2) Create HTML skeleton from a wireframe <br>
-2.1) Create click handlers to take in user input <br>
-2.2) using console.log() and debugger to debug code <br>
+2.1) using console.log() and debugger to debug code <br>
+2.2) Create click handlers to take in user input <br>
 3.1) Access a random element from an array  using Math Library <br>
 3.2) Write a conditional statement using the appropriate syntax <br>
 
