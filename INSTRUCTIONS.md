@@ -8,12 +8,12 @@
 In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, Scissors game will take user choice, generate a computer choice, and display the winner to the screen. To create this project, coders will use jQuery to take user input and display data, arrays to store user choice, the Math Library to generate a random index, and conditionals determine the winner.
 
 ## Objectives:
-1.1) Plan and wireframe a project <br>
-1.2) Create HTML skeleton from a wireframe <br>
-2.1) using console.log() and debugger to debug code <br>
-2.2) Create click handlers to take in user input <br>
-3.1) Access a random element from an array  using Math Library <br>
-3.2) Write a conditional statement using the appropriate syntax <br>
+1.1) Plan and wireframe a project. <br>
+1.2) Create HTML skeleton from a wireframe. <br>
+2.1) Use console.log() and debugger to debug code. <br>
+2.2) Create click handlers to take in user input. <br>
+3.1) Access a random element from an array using Math Library. <br>
+3.2) Write a conditional statement using the appropriate syntax. <br>
 
 ## Instructions
 1) Fork this repo to your own github account. 
