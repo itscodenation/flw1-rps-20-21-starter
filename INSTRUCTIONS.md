@@ -16,7 +16,7 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 3.2) Write a conditional statement using the appropriate syntax. <br>
 
 ## Instructions
-1) Fork this repo to your own github account. 
+1) Fork this repo to your own GitHub account. 
 2) Clone this repo into your own Cloud9 account workspace.
 3) Create your README.md file.
 4) Follow the instuctions in the comments to create your project
