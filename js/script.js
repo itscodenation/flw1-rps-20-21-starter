@@ -8,4 +8,6 @@
 
 
 // DOCUMENT READY FUNCTION BELOW
-
+$(document).ready(function() {
+  // YOUR CODE HERE
+});
