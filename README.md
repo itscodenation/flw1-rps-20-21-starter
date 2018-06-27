@@ -7,28 +7,24 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 
 #### Planning
 - [ ] Choose a theme that you want your fansite to be about. Be careful to choose something you know and are able to write about!
-- [ ] Collect the images you will need for your homepage, about page and gallery page.
+
 #### Set-Up
 - [x] Go to the repository at https://github.com/ScriptEdcurriculum/rockpaperscissors
 - [ ] Fork this repository to your github account and clone to a new workspace
 - [ ] Add, commit, and push your changes
 - [ ] Make your site live on gh-pages
 
-
 #### Wrap
 - [ ] Push your changes!
 - [ ] Save and submit your Fanpage website using the link on the Daily Session Document.
 
 ## Day 2
-#### CSS
-
 
 #### Wrap
 - [ ] Push your changes!
 
 ## Day 3
  
-
 #### Wrap
 - [ ] Push your changes!
 
