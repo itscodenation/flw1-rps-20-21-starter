@@ -14,7 +14,35 @@
         5. Add divs to record User Choice and Computer Choice.
         6. Add a div to record the Winner.
      -->
-    
+      <div class="row">
+        <div class="column spacer"></div>
+        <div id="content" class="column text-center">
+          <h1>Rock Paper Scissors</h1>
+          <img src="http://www.coltnews.com/wp-content/uploads/2016/04/RPS.png">
+
+          <h3>Please Submit Your Choice Below</h3> 
+          <div>
+            <input id="input"> 
+            <button id="shoot">Shoot!</button>
+          </div>
+
+          <div id="choices" class="row">
+            <div>
+              <h4>User Choice</h4>
+              <p id="userChoice"></p>
+            </div>
+
+
+            <div>
+              <h4>Computer Choice</h4> 
+              <p id="computerChoice"></p> 
+            </div>
+          </div>
+
+          <div id="result"></div>
+        </div>
+        <div class="column spacer"></div>
+      </div>
       
       <!-- Link JQuery here -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
