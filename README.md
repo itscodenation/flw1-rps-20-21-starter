@@ -31,17 +31,18 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 - [ ] Declare a randomNumber variable and set it to 0
 - [ ] In your click handler, store the input value in the userChoice variable	
 - [ ] In your click handler, display userChoice to the screen
-
-
+- [ ] Write code that will use a Math function to generate a random number
 #### Wrap
 - [ ] Push your changes!
 
 ## Day 3
 
 ## JavaScript
-- [ ] Write conditional statements to determine the winner of the game
+- [ ] Write conditional statements to determine the computerChoice
 - [ ] Display the computerChoice to the screen
+- [ ] Write conditional statements that compare the userChoice to the computerChoice to determine the winner of the game
 - [ ] Display the winner to the screen in the result div
+- [ ] Clear the input value once a result is displayed
 
 #### Wrap
 - [ ] Push your changes!
