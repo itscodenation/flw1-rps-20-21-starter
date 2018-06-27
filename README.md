@@ -41,7 +41,7 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 ## JavaScript
 - [ ] Write conditional statements to determine the winner of the game
 - [ ] Display the computerChoice to the screen
-- [ ] Display the result to the screen
+- [ ] Display the winner to the screen in the result div
 
 #### Wrap
 - [ ] Push your changes!
