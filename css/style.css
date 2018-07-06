@@ -1,26 +1,9 @@
-.row {
-  display: flex;
-  flex-direction: row;
+.row{
+  text-align:center;
+  
 }
-
-.column {
-  display: flex;
-  flex-direction: column;
-}
-
-.column.spacer {
-  flex-grow: 1;
-}
-
-.text-center {
-  text-align: center;
-}
-
-#content {
-  width: 750px;
-  flex: 0 0 auto;
-}
-
-#choices div {
-  flex-grow: 1;
+#choices{
+  display:flex;
+  justify-content:space-between;
+  
 }
