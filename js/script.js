@@ -3,7 +3,7 @@
 //****************** SERIOUSLY TEST USING console.log()!!! ******************
 
 //GLOBAL VARIABLES
-
+/* global $ */
 
 
 
