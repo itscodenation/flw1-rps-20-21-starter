@@ -13,11 +13,13 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 - [ ] Add, commit, and push your changes
 - [ ] Make your site live on gh-pages
 
-### HTML
-- [ ] Add any more HTML elements you will need to the page
-
 ### JavaScript
 - [ ] Add a click handler that displays the value of the input within the div with the id `#userChoice`
+
+
+### HTML and CSS
+- [ ] Add any more HTML elements you will need to the page
+- [ ] Customize your HTML with CSS
 
 #### Wrap
 - [ ] Push your changes!
