@@ -7,14 +7,14 @@
 var human;
 var computer;
 var winner;
-var randomNumber;
+var randomNumber = Math.random();
 
 // DOCUMENT READY FUNCTION BELOW
 
+    
 $("#shoot").click(function() {
     human = $("#input").val().toLowerCase().trim();
     $("#userChoice").text(human);
-    randomNumber = Math.random();
     if (randomNumber < 0.333334) {
         computer = "rock";
     } else if (randomNumber > 0.333333 && randomNumber < 0.666667) {
