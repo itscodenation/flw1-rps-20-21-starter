@@ -14,7 +14,7 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 - [ ] Make your site live on gh-pages
 
 ### JavaScript
-- [ ] Add a click handler that displays the value of the input within the div with the id `#userChoice`
+- [ ] Add a click handler that displays the value of the input within a div
 
 
 ### HTML and CSS
@@ -23,7 +23,7 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 
 #### Wrap
 - [ ] Push your changes!
-- [ ] Save and submit your website using the link on the Daily Session Document.
+- [ ] Save and submit your website using the link on the session agenda.
 
 ## Day 2
 
@@ -32,18 +32,18 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 - [ ] Outside of your click handler, declare the variables you'll need to track the user choice, computer choice and winner and assign them values of empty strings.
 - [ ] Outside of your click handler, declare a randomNumber variable and set it equal to 0
 - [ ] In your click handler, generate a random number and assign it to the randomNumber variable
-- [ ] In your click handler, store the input value in the userChoice variable	
-- [ ] In your click handler, display userChoice to the screen
+- [ ] In your click handler, store the input value in a variable	
+- [ ] In your click handler, display user input to the screen
 #### Wrap
 - [ ] Push your changes!
 
 ## Day 3
 
 ## JavaScript
-- [ ] Write a conditional statement which, given the number range of randomNumber, assigns ‘rock’, ‘paper’ or ‘scissors’ to the computerChoice variable 
-- [ ] Display the computerChoice to the screen
-- [ ] Write a conditional statement that compares the userChoice to the computerChoice to determine the winner of the game
-- [ ] Display the winner to the screen in the result div
+- [ ] Write a conditional statement which, given the number range of randomNumber, assigns ‘rock’, ‘paper’ or ‘scissors’ to the computer choice  variable 
+- [ ] Display the computer choice to the screen
+- [ ] Write a  statement that compares the userChoice to the computerChoice to determine the winner of the game
+- [ ] Display the winner to the screen in a div
 - [ ] Clear the input value once a result is displayed
 
 #### Wrap
