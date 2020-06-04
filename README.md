@@ -31,20 +31,20 @@ In this unit, coders will create a Rock, Paper, Scissors game. The game will tak
 
 - [ ] Outside of your click handler, declare the variables you'll need to track the user choice, computer choice and winner and assign them values of empty strings.
 - [ ] Outside of your click handler, declare a randomNumber variable and set it equal to 0
-- [ ] In your click handler, generate a random number and assign it to the randomNumber variable
-- [ ] In your click handler, store the input value in a variable	
-- [ ] In your click handler, display user input to the screen
+- [ ] When the user initiates the game, generate a random number and assign it to the randomNumber variable.
+- [ ] When the user initiates the game, store the user choice..	
+- [ ] When the user initiates the game, display user choice to the screen
 #### Wrap
 - [ ] Push your changes!
 
 ## Day 3
 
 ## JavaScript
-- [ ] Write a conditional statement which, given the number range of randomNumber, assigns ‘rock’, ‘paper’ or ‘scissors’ to the computer choice  variable 
+- [ ] Write a conditional statement which, given the number range of randomNumber, assigns ‘rock’, ‘paper’ or ‘scissors’ to the variable that holds the computer choice. 
 - [ ] Display the computer choice to the screen
-- [ ] Write a  statement that compares the userChoice to the computerChoice to determine the winner of the game
-- [ ] Display the winner to the screen in a div
-- [ ] Clear the input value once a result is displayed
+- [ ] Write a  statement that compares the user choice to the computer choice to determine the winner of the game
+- [ ] Display the winner to the screen.
+- [ ] Clear the input value once a result is displayed.
 
 #### Wrap
 - [ ] Push your changes!
@@ -57,7 +57,7 @@ In this unit, coders will create a Rock, Paper, Scissors game. The game will tak
 - [ ] Create a game with more variety in throwing options. Example: [Rock-Paper-Scissors-Lizard-Spock](http://en.wikipedia.org/wiki/Rock-paper-scissors-lizard-Spock)
 
 ## References/Tools
-* [Advanced Reference Table]()
+* [Fellowship Reference Table]()
 * [Script Tag](http://javascript.crockford.com/script.html)
 * [How Jquery Works](http://learn.jquery.com/about-jquery/how-jquery-works/)
 * [JQuery Events](http://api.jquery.com/category/events/)
