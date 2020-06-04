@@ -1,8 +1,7 @@
 # Rock Paper Scissors Project
-## Browser preview command: python3 -m http.server 3000
 
 ## Overview: 
-In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, Scissors game will take user choice, generate a computer choice, and display the winner to the screen. To create this project, coders will use jQuery to take user input and display data, the Math Library to generate a random choice, and conditionals to determine the winner.
+In this unit, coders will create a Rock, Paper, Scissors game. The game will take in a user choice, generate a computer choice, compare the choices, and display the winner to the screen. To create this project, coders will use jQuery to take user input, use the Math Library to pick a random computer choice, and use conditionals to determine the winner.
 
 ## Day 1
 
@@ -10,12 +9,12 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 - [ ] Complete the project planning document.
 #### Set-Up
 - [x] Go to the repository at https://github.com/itscodenation/rockpaperscissors
-- [ ] Fork this repository to your Github account and pull it down to Gitpod
+- [ ] Fork this repository to your Github account and pull it down to Glitch
 - [ ] Add, commit, and push your changes
 - [ ] Make your site live on gh-pages
 
 ### JavaScript
-- [ ] Add a click handler that displays the value of the input within a div
+- [ ] Use JavaScript to display the value of the input on the page
 
 
 ### HTML and CSS
