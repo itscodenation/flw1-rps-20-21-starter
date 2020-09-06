@@ -1,9 +1,49 @@
 .row{
   text-align:center;
-  
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
-#choices{
-  display:flex;
-  justify-content:space-between;
-  
+
+.column{
+  text-align:center;
+  justify-content: space-around;
 }
+
+
+.title_img {
+  height: 200px;
+}
+
+.choice_img {
+  width: 100px;
+  height: 100px;
+}
+
+#row2 .column {
+  text-align:center;
+  width: 30%;
+}
+
+.choice_img {
+}  
+
+.result_img {
+  visibility: hidden;
+}  
+
+#row1 * {
+  text-align: left;
+}
+
+.score {
+  display: block;
+  font-size: 1em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+body {background-color: #d9ffff;}

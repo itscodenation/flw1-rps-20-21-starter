@@ -1,48 +1,88 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>RPS Game</title>
+    <!-- Link CSS here -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <title>RPS Game</title>
-  <!-- Link CSS here -->
-  <link type='text/css' rel='stylesheet' href='css/style.css' />
-</head>
-
-<body>
-  
-   <!-- HTML/CSS options: In the div below. 
+  <body>
+    <!-- HTML/CSS options: In the div below. 
         1. In the header tag, change a title.
         2. In a paragraph tag, add instructions on how to play the game.
         3. Change the RPS image.
         4. Style your page with colors, fonts, etc.
      -->
-    
-  <div class="row">
+
+    <div class="row">
       <h1>Rock Paper Scissors</h1>
-      <img src="http://www.coltnews.com/wp-content/uploads/2016/04/RPS.png">
+    </div>
+    <div class="row">
+      <img
+        class="title_img"
+        src="http://www.coltnews.com/wp-content/uploads/2016/04/RPS.png"
+      />
+    </div>
 
-      <h3>Please Submit Your Choice Below</h3>
-      <div>
-        <input id="input">
-        <button id="shoot">Shoot!</button>
-      </div>
-
-      <div id="choices" class="row">
+    <div class="row" id="row1">
+      <div class="column radio_field">
+        <h3>Please Submit Your Choice</h3>
         <div>
-          <h4>User Choice</h4>
-          <p id="userChoice"></p>
+          <input type="radio" name="user_selection" value="1" />
+          <label for="rock">Rock</label><br />
         </div>
         <div>
-          <h4>Computer Choice</h4>
-          <p id="computerChoice"></p>
+          <input type="radio" name="user_selection" value="2" />
+          <label for="paper">Paper</label><br />
+        </div>
+        <div>
+          <input type="radio" name="user_selection" value="3" />
+          <label for="scissors">Sissors</label><br />
         </div>
       </div>
-      <div id="result"></div>
-  </div>
+      <div class="column">
+        <br><br><br><br>
+        <button id="submit">Lets Go!</button>
+      </div>
+    </div>
 
-  <!-- Link JQuery here -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <!-- Link script.js here -->
-  <script src='js/script.js'></script>
-</body>
+    <div class="row" id="row2">
+      <div class="column user">
+        <h3><u>User Choice</u></h3>
+        <img
+          class="choice_img"
+          src="https://cdn.glitch.com/efd68b0b-8fb2-4f34-b0e2-09a101f51bf0%2Fnone.png?v=1599420363188"
+        />
+      </div>
+      <div class="column">
+        <img
+          class="result_img"
+          src="https://cdn.glitch.com/efd68b0b-8fb2-4f34-b0e2-09a101f51bf0%2Fnone.png?v=1599420363188"
+        />
+      </div>
+      <div class="column computer">
+        <h3><u>Computer Choice</u></h3>
+        <img
+          class="choice_img"
+          src="https://cdn.glitch.com/efd68b0b-8fb2-4f34-b0e2-09a101f51bf0%2Fnone.png?v=1599420363188"
+        />
+      </div>
+    </div>
 
+    <div class="row" id="row3">
+      <div class="column result_text"></div>
+      <div class="column score">
+        <h2>
+          <u>Score</u> <br>User : Computer<br>
+          <span id="user_score">0</span> : <span id="computer_score">0</span>
+        </h2>
+        <button id="reset">Reset Score</button>
+      </div>
+    </div>
+
+    <!-- Link JQuery here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Link script.js here -->
+    <script src="js/script.js"></script>
+  </body>
 </html>
