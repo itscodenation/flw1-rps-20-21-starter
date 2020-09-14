@@ -22,7 +22,6 @@ In this unit, coders will create a Rock, Paper, Scissors game. To create this pr
 - [ ] Customize your HTML with CSS
 
 #### Wrap
-- [ ] Push your changes!
 - [ ] Save and submit your website using the link on the session agenda.
 
 ## Day 2
@@ -34,8 +33,6 @@ In this unit, coders will create a Rock, Paper, Scissors game. To create this pr
 - [ ] When the user initiates the game, generate a random number and assign it to the randomNumber variable.
 - [ ] When the user initiates the game, store the user choice..	
 - [ ] When the user initiates the game, display user choice to the screen
-#### Wrap
-- [ ] Push your changes!
 
 ## Day 3
 
@@ -47,6 +44,7 @@ In this unit, coders will create a Rock, Paper, Scissors game. To create this pr
 - [ ] Clear the input value once a result is displayed.
 
 #### Wrap
+- [ ] Save and submit your website using the link on the session agenda.
 - [ ] Push your changes!
 
 ## Projects Extensions:
@@ -57,8 +55,7 @@ In this unit, coders will create a Rock, Paper, Scissors game. To create this pr
 - [ ] Allows for more variety in throwing options. Example: [Rock-Paper-Scissors-Lizard-Spock](http://en.wikipedia.org/wiki/Rock-paper-scissors-lizard-Spock)
 
 ## References/Tools
-* [Fellowship Reference Table]()
-* [Script Tag](http://javascript.crockford.com/script.html)
+* [Fellowship Reference Table](https://docs.google.com/document/d/1qrY2OC-6S04oOXZlYmXja7lmKBmdApR-HXJkhfd67e8/)
 * [How Jquery Works](http://learn.jquery.com/about-jquery/how-jquery-works/)
 * [JQuery Events](http://api.jquery.com/category/events/)
 * [Math.random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
