@@ -6,10 +6,10 @@ In this unit, coders will create a Rock, Paper, Scissors game. To create this pr
 ## Day 1
 
 #### Planning
-- [ ] Copy the [project planning document](https://docs.google.com/document/d/1CCzFGH6Z4AtpWrDuB6KQK73N5-8ywGv0KhO10i3hZPk/edit#) and link a completed version in your ReadMe.
+- [x] Copy the [project planning document](https://docs.google.com/document/d/1CCzFGH6Z4AtpWrDuB6KQK73N5-8ywGv0KhO10i3hZPk/edit#) and link a [completed version](https://docs.google.com/document/d/1M0p90QTSUcw0sQXrErd_lXAp_BckCmtNQymHcCvxUWE/edit) in your ReadMe.
 #### Set-Up
 - [x] Go to the repository at https://github.com/itscodenation/rockpaperscissors
-- [ ] Fork this repository to your Github account and pull it down to Glitch
+- [x] Fork this repository to your Github account and pull it down to Glitch
 - [ ] Add, commit, and push your changes
 - [ ] Make your site live on gh-pages
 
