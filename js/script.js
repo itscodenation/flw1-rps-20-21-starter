@@ -5,5 +5,11 @@
 //GLOBAL VARIABLES
 /* global $ */
 
+function playGame() {
+  setUserChoice()
+}
 
-
+function setUserChoice() {
+ document.getElementById("userChoice").innerText = 
+   document.getElementById("input").value;
+}
