@@ -1,7 +1,6 @@
 # Rock Paper Scissors Project
 
-Link to empty [project planning
-document](https://docs.google.com/document/d/1qzF54skx3xb49RbhlaHt7XFyC_xad6JZQdWiavOh0eE/edit?usp=sharing).
+- Linked [project plan for cwu](https://docs.google.com/document/d/1qzF54skx3xb49RbhlaHt7XFyC_xad6JZQdWiavOh0eE/edit?usp=sharing)
 
 ## Overview: 
 In this unit, coders will create a Rock, Paper, Scissors game. To create this project, coders will use JavaScript to take user input, use the Math Library to pick a random computer choice, and use conditionals to determine the winner.
@@ -9,11 +8,11 @@ In this unit, coders will create a Rock, Paper, Scissors game. To create this pr
 ## Day 1
 
 #### Planning
-- [x] Copy the [project planning document](https://docs.google.com/document/d/1CCzFGH6Z4AtpWrDuB6KQK73N5-8ywGv0KhO10i3hZPk/edit#) and link a completed version in your ReadMe.
+- [ ] Copy the [project planning document](https://docs.google.com/document/d/1CCzFGH6Z4AtpWrDuB6KQK73N5-8ywGv0KhO10i3hZPk/edit#) and link a completed version in your ReadMe.
 
 #### Set-Up
 - [x] Go to the repository at https://github.com/itscodenation/rockpaperscissors
-- [x] Fork this repository to your Github account and pull it down to Glitch
+- [ ] Fork this repository to your Github account and pull it down to Glitch
 - [ ] Look through all the Starter Code
 
 ### JavaScript
