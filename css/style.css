@@ -4,6 +4,10 @@
 }
 #choices{
   display:flex;
-  justify-content:space-between;
+  justify-content:space-evenly;
   
+}
+
+img{
+  width: 100%;
 }
