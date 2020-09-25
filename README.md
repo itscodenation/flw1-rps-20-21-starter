@@ -7,6 +7,7 @@ In this unit, coders will create a Rock, Paper, Scissors game. To create this pr
 
 #### Planning
 - [x] Copy the [project planning document](https://docs.google.com/document/d/1CCzFGH6Z4AtpWrDuB6KQK73N5-8ywGv0KhO10i3hZPk/edit#) and link a completed version in your ReadMe.
+Project Planning Document: https://docs.google.com/document/d/1PEUZKkayds_AarYL2uDUDGy-u6TM9VSFagTutIFFhVQ/edit
 
 #### Set-Up
 - [x] Go to the repository at https://github.com/itscodenation/rockpaperscissors
@@ -17,11 +18,11 @@ In this unit, coders will create a Rock, Paper, Scissors game. To create this pr
 - [x] Use JavaScript to display the value of the input on the page
 
 ### HTML and CSS
-- [ ] Add any more HTML elements you will need to the page
-- [ ] Customize your HTML with CSS
+- [x] Add any more HTML elements you will need to the page
+- [x] Customize your HTML with CSS
 
 #### Wrap
-- [ ] Save and submit your website using the link on the session agenda.
+- [x] Save and submit your website using the link on the session agenda.
 
 ## Day 2
 
