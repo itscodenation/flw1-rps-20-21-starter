@@ -1,46 +1,53 @@
-// *************************** YOUR CODE BELOW *******************************
-//******************TEST EARLY AND OFTEN USING console.log() ******************
-//****************** SERIOUSLY TEST USING console.log()!!! ******************
+//Click Function when play is clicked
+$(".play").click(function () {
+  //Takes in User Choice from the input box and stores it in a variable
+  let userChoice = $(".input").val();
 
-//GLOBAL VARIABLES
-/* global $ */
-var human;
-var computer;
-var winner;
-var randomNumber = Math.random();
+  //Display the user choice to the screen
+  $(".userChoice").html(userChoice);
 
-// DOCUMENT READY FUNCTION BELOW
+  //Display the computer choice to the screen
+  let computerChoice = getRandomComputerChoice();
+  $(".computerChoice").html(computerChoice);
 
-    
-$("#shoot").click(function() {
-    human = $("#input").val().toLowerCase().trim();
-    $("#userChoice").text(human);
-    if (randomNumber < 0.333334) {
-        computer = "rock";
-    } else if (randomNumber > 0.333333 && randomNumber < 0.666667) {
-        computer = "scissors";
-    } else {
-        computer = "paper";
-    }
-    $("#computerChoice").text(computer);
-    if (human === "rock" && computer === "scissors") {
-        $("#result").text("User wins!");
-    } else if (human === "rock" && computer === "paper") {
-        $("#result").text("Computer wins!");
-    } else if (human === "rock" && computer === "rock") {
-        $("#result").text("Tie!");
-    } else if (human === "scissors" && computer === "scissors") {
-        $("#result").text("Tie!");
-    } else if (human === "scissors" && computer === "paper") {
-        $("#result").text("User wins!");
-    } else if (human === "scissors" && computer === "rock") {
-        $("#result").text("Computer wins!");
-    } else if (human === "paper" && computer === "scissors") {
-        $("#result").text("Computer wins!");
-    } else if (human === "paper" && computer === "paper") {
-        $("#result").text("Tie!");
-    } else if (human === "paper" && computer === "rock") {
-        $("#result").text("User wins!");
-    }
-    $("#input").val("");
+  //Displays the winner choice to the screen
+  let winner = chooseWinner(userChoice, computerChoice);
+  $(".result").html(winner);
+
+  // Clears the input box
+  $(".input").val("");
 });
+
+function getRandomComputerChoice() {
+  let randomNumber = Math.random();
+  let computerChoice;
+
+  if (randomNumber < 0.33) {
+    computerChoice = "rock";
+  } else if (randomNumber < 0.67) {
+    computerChoice = "paper";
+  } else {
+    computerChoice = "scissors";
+  }
+  return computerChoice;
+}
+
+function chooseWinner(userChoice, computerChoice) {
+  let winner;
+  if (
+    (userChoice === "rock" && computerChoice === "paper") ||
+    (userChoice === "paper" && computerChoice === "scissors") ||
+    (userChoice === "scissors" && computerChoice === "rock")
+  ) {
+    winner = "Computer Wins!";
+  } else if (
+    (userChoice === "rock" && computerChoice === "scissors") ||
+    (userChoice === "paper" && computerChoice === "rock") ||
+    (userChoice === "scissors" && computerChoice === "paper")
+  ) {
+    winner = "User Wins!";
+  } else {
+    winner = "No one Wins!";
+  }
+  return winner;
+}
