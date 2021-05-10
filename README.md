@@ -54,15 +54,20 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 - [ ] Write a conditional statement which, given the number range of randomNumber, assigns ‘rock’, ‘paper’ or ‘scissors’ to a computerChoice variable
 - [ ] Update the computer choice location so it displays the computerChoice to the screen
 
-### Day 3 Goal 2: Compare the user choice and computer choice to determine a winner
+### Day 3 Goal 2: Increase user experience (BONUS!)
+
+- [ ] Test for edge cases by ensuring that a result appears if the user does not type an acceptable input
+
+## Day 4
+
+### Day 4 Goal 1: Compare the user choice and computer choice to determine a winner
 
 - [ ] Write a compound conditional statement that compares the userChoice to the computerChoice
 - [ ] Declare a variable to save the winner of the game
 - [ ] Display the winner to the screen in the result div
 
-### Day 3 Goal 3: Increase user experience
+### Day 4 Goal 2: Increase user experience (BONUS!)
 
-- [ ] Test for edge cases by ensuring that a result appears if the user does not type an acceptable input
 - [ ] Test that your game performs correctly in case of a tie
 - [ ] Clear the input value once a result is displayed so your game is ready to play again
 
@@ -70,15 +75,15 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 
 - [ ] Commit your changes!
 
-#### Day 4
+#### Day 5
 
-### Day 4 Goal 1: Create a function to handle your computer choice logic
+### Day 5 Goal 1: Create a function to handle your computer choice logic
 
 - [ ] Write a function called getRandomComputerChoice that does not accept any parameters and returns computerChoice
 - [ ] Move your `Math.random` inside your function
 - [ ] Move your conditional logic that determines the computer choice inside your function
 
-### Day 4 Goal 2: Call your getRandomComputerChoice function
+### Day 5 Goal 2: Call your getRandomComputerChoice function
 
 - [ ] Call your function inside your click handler so that it determines the value of your computerChoice variable
   - [ ] HINT: Your getRandomComputerChoice function works correctly if it returns rock, paper, or scissors when called
@@ -87,14 +92,14 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 
 - [ ] Commit your changes!
 
-#### Day 5
+#### Day 6
 
-### Day 5 Goal 1: Create a function to handle your winner logic
+### Day 6 Goal 1: Create a function to handle your winner logic
 
 - [ ] Write a function called chooseWinner that does accepts two parameters and returns winner
 - [ ] Move your compound conditional logic that determines the winner inside your function
 
-### Day 5 Goal 2: Call your chooseWinner function
+### Day 6 Goal 2: Call your chooseWinner function
 
 - [ ] Call your function inside your click handler so that it determines the value of your winner variable
   - [ ] HINT: Your chooseWinner function works correctly if it returns "User wins!", "Computer wins!" or "No one wins!" when called
