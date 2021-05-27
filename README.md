@@ -15,9 +15,9 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 #### GitHub Set-Up
 
 - [x] Go to the repository at https://github.com/itscodenation/rockpaperscissors
-- [x] Fork this repository to your Github account and import to a new workspace
-- [x] Link and commit your changes
-- [x] Make your site live on GitHub Pages
+- [ ] Fork this repository to your Github account and import to a new workspace
+- [ ] Link and commit your changes
+- [ ] Make your site live on GitHub Pages
 
 #### Code Walkthrough
 
