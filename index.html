@@ -1,48 +1,38 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>RPS Game</title>
+    <!-- Link CSS here -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <title>RPS Game</title>
-  <!-- Link CSS here -->
-  <link type='text/css' rel='stylesheet' href='css/style.css' />
-</head>
-
-<body>
-  
-   <!-- HTML/CSS options: In the div below. 
-        1. In the header tag, change a title.
-        2. In a paragraph tag, add instructions on how to play the game.
-        3. Change the RPS image.
-        4. Style your page with colors, fonts, etc.
-     -->
-    
-  <div class="row">
+  <body>
+    <div class="row">
       <h1>Rock Paper Scissors</h1>
-      <img src="http://www.coltnews.com/wp-content/uploads/2016/04/RPS.png">
+      <img src="http://www.coltnews.com/wp-content/uploads/2016/04/RPS.png" />
 
       <h3>Please Submit Your Choice Below</h3>
       <div>
-        <input id="input">
-        <button id="shoot">Shoot!</button>
+        <input class="input" />
+        <button class="play">play!</button>
       </div>
 
-      <div id="choices" class="row">
+      <div class="choices" class="row">
         <div>
           <h4>User Choice</h4>
-          <p id="userChoice"></p>
+          <p class="userChoice"></p>
         </div>
         <div>
           <h4>Computer Choice</h4>
-          <p id="computerChoice"></p>
+          <p class="computerChoice"></p>
         </div>
       </div>
-      <div id="result"></div>
-  </div>
+      <div class="result"></div>
+    </div>
 
-  <!-- Link JQuery here -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <!-- Link script.js here -->
-  <script src='js/script.js'></script>
-</body>
-
+    <!-- Link JQuery here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Link script.js here -->
+    <script src="js/script.js"></script>
+  </body>
 </html>
