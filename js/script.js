@@ -1,32 +1,127 @@
-let computerChoiceNum= ["rock","paper","scissors"];
-// User clicks button
-$(".play").click(function() { 
-  
-  let user_choice = $(".input").val();
-  
-  console.log();
-  console.log(`Choice: ${user_choice}`);
-  
-//   // Show user choice
-  $(".userChoice").text(user_choice);
-  // Have rock paper scissors be numbers so ai can use random
-let ranDecimal = Math.random();
-let randNumber = ranDecimal * computerChoiceNum.length;
-let num1 = Math.floor(randNumber);
-  $(".computerChoice").append(num1);
-  
-  console.log(num1);
-  console.log(computerChoiceNum[num1]);
-  // Generate random number
+//for some unkown reason we if we use all lowercase it gives all 3 results \/(-_-)\/
+let computerChoiceNum = ["rock", "paper", "scissors"];
 
-  if (user_choice == "rock" && computerChoiceNum == "scissors"){
-    $().append();
+//Thunpitcha
+
+let randomNumber = 0;
+
+// User clicks button
+
+$(".play").click(function() {
+  let user_choice = $(".input").val();
+
+  $(".userChoice").text(user_choice);
+
+  randomNumber = Math.floor(Math.random() * 3);
+
+  $(".computerChoice").text(computerChoiceNum[randomNumber]);
+
+  if (
+    user_choice == "rock" 
+    ||
+    user_choice == "Rock" 
+    ||
+    user_choice == "ROCK" 
+    && 
+    computerChoiceNum[randomNumber] == "scissors") {
+    
+    $(".result").append(`<p>You Won!</p>`);
   }
 
-  // Determine win or loss
+  if (
+    user_choice == "rock" 
+    ||
+    user_choice == "Rock" 
+    ||
+    user_choice == "ROCK" 
+    && 
+    computerChoiceNum[randomNumber] == "rock") {
+    
+    $(".result").append(`<p>You Tied!</p>`);
+  }
 
+  if (
+    user_choice == "rock" 
+    ||
+    user_choice == "Rock" 
+    ||
+    user_choice == "ROCK" 
+    && 
+    computerChoiceNum[randomNumber] == "paper") {
+    
+    $(".result").append(`<p>You Lost!</p>`);
+  }
 
-  // Display result of game
+  if (
+    user_choice == "paper" 
+    ||
+    user_choice == "Paper" 
+    ||
+    user_choice == "PAPER" 
+    && 
+    computerChoiceNum[randomNumber] == "rock") {
+    
+    $(".result").append(`<p>You Won!</p>`);
+  }
+
+  if (
+    user_choice == "paper" 
+    ||
+    user_choice == "Paper" 
+    ||
+    user_choice == "PAPER" 
+    && 
+    computerChoiceNum[randomNumber] == "scissors") {
+    
+    $(".result").append(`<p>You Lost!</p>`);
+  }
+
+  if (
+    user_choice == "paper" 
+    ||
+    user_choice == "Paper" 
+    ||
+    user_choice == "PAPER" 
+    && 
+    computerChoiceNum[randomNumber] == "paper") {
+    
+    $(".result").append(`<p>You Tied!</p>`);
+  }
+
+  if (
+    user_choice == "scissors" 
+    ||
+    user_choice == "Scissors" 
+    ||
+    user_choice == "SCISSORS" 
+    && 
+    computerChoiceNum[randomNumber] == "scissors") {
+    
+    $(".result").append(`<p>You Tied!</p>`);
+  }
+
+  if (
+    user_choice == "scissors" 
+    ||
+    user_choice == "Scissors" 
+    ||
+    user_choice == "SCISSORS" 
+    && 
+    computerChoiceNum[randomNumber] == "rock") {
+    
+    $(".result").append(`<p>You Lost!</p>`);
+  }
+
+  if (
+    user_choice == "scissors" 
+    ||
+    user_choice == "Scissors" 
+    ||
+    user_choice == "SCISSORS" 
+    && 
+    computerChoiceNum[randomNumber] == "paper") {
+    
+    $(".result").append(`<p>You Won!</p>`);
+  }
+
 });
-
-
