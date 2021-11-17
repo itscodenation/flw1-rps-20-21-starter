@@ -17,21 +17,29 @@ $(".play").click(function() {
   $(".computerChoice").text(computerChoiceNum[randomNumber]);
 
   if (
-    user_choice == "rock" 
+    user_choice == "rock"
+    && 
+    computerChoiceNum[randomNumber] == "scissors" 
     ||
     user_choice == "Rock" 
+    && 
+    computerChoiceNum[randomNumber] == "scissors" 
     ||
     user_choice == "ROCK" 
     && 
-    computerChoiceNum[randomNumber] == "scissors") {
+    computerChoiceNum[randomNumber] == "scissors" ) {
     
     $(".result").append(`<p>You Won!</p>`);
   }
 
   if (
     user_choice == "rock" 
+    && 
+    computerChoiceNum[randomNumber] == "rock" 
     ||
     user_choice == "Rock" 
+    && 
+    computerChoiceNum[randomNumber] == "rock" 
     ||
     user_choice == "ROCK" 
     && 
@@ -42,8 +50,12 @@ $(".play").click(function() {
 
   if (
     user_choice == "rock" 
+    && 
+    computerChoiceNum[randomNumber] == "paper" 
     ||
     user_choice == "Rock" 
+    && 
+    computerChoiceNum[randomNumber] == "paper" 
     ||
     user_choice == "ROCK" 
     && 
@@ -54,8 +66,12 @@ $(".play").click(function() {
 
   if (
     user_choice == "paper" 
+    && 
+    computerChoiceNum[randomNumber] == "rock" 
     ||
     user_choice == "Paper" 
+    && 
+    computerChoiceNum[randomNumber] == "rock" 
     ||
     user_choice == "PAPER" 
     && 
@@ -66,8 +82,12 @@ $(".play").click(function() {
 
   if (
     user_choice == "paper" 
+    && 
+    computerChoiceNum[randomNumber] == "scissors" 
     ||
     user_choice == "Paper" 
+    && 
+    computerChoiceNum[randomNumber] == "scissors" 
     ||
     user_choice == "PAPER" 
     && 
@@ -78,8 +98,12 @@ $(".play").click(function() {
 
   if (
     user_choice == "paper" 
+    && 
+    computerChoiceNum[randomNumber] == "paper" 
     ||
     user_choice == "Paper" 
+    && 
+    computerChoiceNum[randomNumber] == "paper" 
     ||
     user_choice == "PAPER" 
     && 
@@ -90,8 +114,12 @@ $(".play").click(function() {
 
   if (
     user_choice == "scissors" 
+    && 
+    computerChoiceNum[randomNumber] == "scissors" 
     ||
     user_choice == "Scissors" 
+    && 
+    computerChoiceNum[randomNumber] == "scissors" 
     ||
     user_choice == "SCISSORS" 
     && 
@@ -102,8 +130,12 @@ $(".play").click(function() {
 
   if (
     user_choice == "scissors" 
+    && 
+    computerChoiceNum[randomNumber] == "rock" 
     ||
     user_choice == "Scissors" 
+    && 
+    computerChoiceNum[randomNumber] == "rock" 
     ||
     user_choice == "SCISSORS" 
     && 
@@ -114,8 +146,12 @@ $(".play").click(function() {
 
   if (
     user_choice == "scissors" 
+    && 
+    computerChoiceNum[randomNumber] == "paper" 
     ||
     user_choice == "Scissors" 
+    && 
+    computerChoiceNum[randomNumber] == "paper" 
     ||
     user_choice == "SCISSORS" 
     && 
