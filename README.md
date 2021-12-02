@@ -15,48 +15,48 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 #### GitHub Set-Up
 
 - [x] Go to the repository at https://github.com/itscodenation/rockpaperscissors
-- [ ] Fork this repository to your Github account and import to a new workspace
-- [ ] Link and commit your changes
-- [ ] Make your site live on GitHub Pages
+- [x] Fork this repository to your Github account and import to a new workspace
+- [x] Link and commit your changes
+- [x] Make your site live on GitHub Pages
 
 #### Code Walkthrough
 
-- [ ] Read through the starter code given so you understand how the HTML is organized
+- [x] Read through the starter code given so you understand how the HTML is organized
 
 ### Day 1 Goal 2: Capture user input and display it to the screen
 
-- [ ] Add a click handler that saves the value of the user's input to a variable
-- [ ] Display the user input value on the screen, in the user choice location
+- [x] Add a click handler that saves the value of the user's input to a variable
+- [x] Display the user input value on the screen, in the user choice location
 
 #### Wrap
 
-- [ ] Commit your changes!
+- [x] Commit your changes!
 
 ## Day 2
 
 ### Day 2 Goal 1: Generate a new random number every time the user clicks the button
 
-- [ ] Outside of your click handler, declare a randomNumber variable and set it equal to 0
-- [ ] In your click handler, generate a random number and assign it to the randomNumber variable
+- [x] Outside of your click handler, declare a randomNumber variable and set it equal to 0
+- [x] In your click handler, generate a random number and assign it to the randomNumber variable
 
 ### Day 2 Goal 2: Display the random number to the screen
 
-- [ ] Display the randomNumber value on the screen, in the computer choice location
+- [x] Display the randomNumber value on the screen, in the computer choice location
 
 #### Wrap
 
-- [ ] Commit your changes!
+- [x] Commit your changes!
 
 ## Day 3
 
 ### Day 3 Goal 1: Assign different computer choices depending on the random number
 
-- [ ] Write a conditional statement which, given the number range of randomNumber, assigns ‘rock’, ‘paper’ or ‘scissors’ to a computerChoice variable
-- [ ] Update the computer choice location so it displays the computerChoice to the screen
+- [x] Write a conditional statement which, given the number range of randomNumber, assigns ‘rock’, ‘paper’ or ‘scissors’ to a computerChoice variable
+- [x] Update the computer choice location so it displays the computerChoice to the screen
 
 ### Day 3 Goal 2: Increase user experience (BONUS!)
 
-- [ ] Test for edge cases by ensuring that a result appears if the user does not type an acceptable input
+- [x] Test for edge cases by ensuring that a result appears if the user does not type an acceptable input
 
 ## Day 4
 
