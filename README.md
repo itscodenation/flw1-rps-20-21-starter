@@ -15,13 +15,13 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 #### GitHub Set-Up
 
 - [x] Go to the repository at https://github.com/itscodenation/rockpaperscissors
-- [ ] Fork this repository to your Github account and import to a new workspace
-- [ ] Link and commit your changes
-- [ ] Make your site live on GitHub Pages
+- [x] Fork this repository to your Github account and import to a new workspace
+- [x] Link and commit your changes
+- [x] Make your site live on GitHub Pages
 
 #### Code Walkthrough
 
-- [ ] Read through the starter code given so you understand how the HTML is organized
+- [x] Read through the starter code given so you understand how the HTML is organized
 
 ### Day 1 Goal 2: Capture user input and display it to the screen
 
