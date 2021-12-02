@@ -25,27 +25,27 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 
 ### Day 1 Goal 2: Capture user input and display it to the screen
 
-- [ ] Add a click handler that saves the value of the user's input to a variable
-- [ ] Display the user input value on the screen, in the user choice location
+- [x] Add a click handler that saves the value of the user's input to a variable
+- [x] Display the user input value on the screen, in the user choice location
 
 #### Wrap
 
-- [ ] Commit your changes!
+- [x] Commit your changes!
 
 ## Day 2
 
 ### Day 2 Goal 1: Generate a new random number every time the user clicks the button
 
-- [ ] Outside of your click handler, declare a randomNumber variable and set it equal to 0
-- [ ] In your click handler, generate a random number and assign it to the randomNumber variable
+- [x] Outside of your click handler, declare a randomNumber variable and set it equal to 0
+- [x] In your click handler, generate a random number and assign it to the randomNumber variable
 
 ### Day 2 Goal 2: Display the random number to the screen
 
-- [ ] Display the randomNumber value on the screen, in the computer choice location
+- [x] Display the randomNumber value on the screen, in the computer choice location
 
 #### Wrap
 
-- [ ] Commit your changes!
+- [x] Commit your changes!
 
 ## Day 3
 
