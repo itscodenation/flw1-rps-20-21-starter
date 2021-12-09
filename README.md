@@ -51,8 +51,8 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 
 ### Day 3 Goal 1: Assign different computer choices depending on the random number
 
-- [ ] Write a conditional statement which, given the number range of randomNumber, assigns ‘rock’, ‘paper’ or ‘scissors’ to a computerChoice variable
-- [ ] Update the computer choice location so it displays the computerChoice to the screen
+- [x] Write a conditional statement which, given the number range of randomNumber, assigns ‘rock’, ‘paper’ or ‘scissors’ to a computerChoice variable
+- [x] Update the computer choice location so it displays the computerChoice to the screen
 
 ### Day 3 Goal 2: Increase user experience (BONUS!)
 
