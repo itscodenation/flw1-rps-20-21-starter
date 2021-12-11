@@ -3,8 +3,6 @@ let totalWins = 0;
 let totalTies = 0;
 let totalLoses = 0;
 let totalGames = 0;
-let winRate = totalWins / totalGames;
-
 
 // Thunpitcha's function
 // Docs: https://docs.google.com/document/d/1gq7oUif59sKDInbJrDTIeSQBaOlGb5ri06b2-noWWNI/edit#heading=h.x4lnrrw34ze2
@@ -32,7 +30,6 @@ $(".clear").click(function() {
 });
 
 $(".play").click(function() {
-
   let result;
   totalGames = totalGames + 1;
 
@@ -48,44 +45,43 @@ $(".play").click(function() {
 
   if (user_choice == "rock" && choices == "scissors") {
     result = "You Won!";
+    totalWins = totalWins + 1;
   } else if (user_choice == "rock" && choices == "rock") {
     result = "You Tied!";
+    totalTies = totalTies + 1;
   } else if (user_choice == "rock" && choices == "paper") {
     result = "You Lost!";
+    totalLoses = totalLoses + 1;
   } else if (user_choice == "paper" && choices == "rock") {
     result = "You Won!";
+    totalWins = totalWins + 1;
   } else if (user_choice == "paper" && choices == "scissors") {
     result = "You Lost!";
+    totalLoses = totalLoses + 1;
   } else if (user_choice == "paper" && choices == "paper") {
     result = "You Tied!";
+    totalTies = totalTies + 1;
   } else if (user_choice == "scissors" && choices == "scissors") {
     result = "You Tied!";
+    totalTies = totalTies + 1;
   } else if (user_choice == "scissors" && choices == "rock") {
     result = "You Lost!";
+    totalLoses = totalLoses + 1;
   } else if (user_choice == "scissors" && choices == "paper") {
     result = "You Won!";
+    totalWins = totalWins + 1;
   } else {
     $(".result").append(`<p>Your input is invalid, try again.<p>`);
   }
-  
-  for (totalWins = 0; totalWins <= totalGames;){
-      totalWins = totalWins +1;
-  }
-  for (totalLoses = 0; totalLoses <= totalGames; ){
-    totalLoses = totalLoses +1;
-  }
-  for (totalTies = 0; totalTies <= totalGames; ){
-    totalTies = totalTies +1;
-//     move the writing out then just change the variable
-}
-  
-  
-    // use 'result'
-    $(".ties").text("You have tied" + totalTies + "times");
-    $(".loses").text("You have lost" + totalLoses + "times");
-      $(".wins").text("You have won" + totalWins + "times");
 
+  let winRate = totalWins / totalGames;
+  winRate = winRate.toFixed(2);
+
+  // use 'result'
+  $(".ties").text("You have tied" + totalTies + "times");
+  $(".loses").text("You have lost" + totalLoses + "times");
+  $(".wins").text("You have won" + totalWins + "times");
   $(".result").text(result);
-  $(".winRate").text("Your win rate is" + winRate + "percent");
   $(".games").text("You have played" + totalGames + "times");
+  $(".winRate").text("Your win rate is" + winRate + "percent");
 });
