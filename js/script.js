@@ -1,11 +1,8 @@
-let computerChoiceNum = ["rock", "paper", "scissors"];
 let totalWins = 0;
 let totalTies = 0;
 let totalLoses = 0;
 let totalGames = 0;
 
-// Thunpitcha's function
-// Docs: https://docs.google.com/document/d/1gq7oUif59sKDInbJrDTIeSQBaOlGb5ri06b2-noWWNI/edit#heading=h.x4lnrrw34ze2
 function getRandomComputerChoice() {
   let randomNumber = Math.floor(Math.random() * 3);
 
@@ -30,58 +27,98 @@ $(".clear").click(function() {
 });
 
 $(".play").click(function() {
-  let result;
-  totalGames = totalGames + 1;
+  
+  // what ever this is.style.animation="moveUpandDown 3s linear infinite"
 
-  let choices = getRandomComputerChoice();
+  function userChoice(user_choices) {
+    user_choices = $(".input").val();
+    $(".userChoice").text(user_choices);
 
-  let user_choice = $(".input").val();
-
-  $(".userChoice").text(user_choice);
-
-  user_choice = user_choice.toLowerCase();
-
-  $(".computerChoice").text(choices);
-
-  if (user_choice == "rock" && choices == "scissors") {
-    result = "You Won!";
-    totalWins = totalWins + 1;
-  } else if (user_choice == "rock" && choices == "rock") {
-    result = "You Tied!";
-    totalTies = totalTies + 1;
-  } else if (user_choice == "rock" && choices == "paper") {
-    result = "You Lost!";
-    totalLoses = totalLoses + 1;
-  } else if (user_choice == "paper" && choices == "rock") {
-    result = "You Won!";
-    totalWins = totalWins + 1;
-  } else if (user_choice == "paper" && choices == "scissors") {
-    result = "You Lost!";
-    totalLoses = totalLoses + 1;
-  } else if (user_choice == "paper" && choices == "paper") {
-    result = "You Tied!";
-    totalTies = totalTies + 1;
-  } else if (user_choice == "scissors" && choices == "scissors") {
-    result = "You Tied!";
-    totalTies = totalTies + 1;
-  } else if (user_choice == "scissors" && choices == "rock") {
-    result = "You Lost!";
-    totalLoses = totalLoses + 1;
-  } else if (user_choice == "scissors" && choices == "paper") {
-    result = "You Won!";
-    totalWins = totalWins + 1;
-  } else {
-    $(".result").append(`<p>Your input is invalid, try again.<p>`);
+    user_choices = user_choices.toLowerCase();
+    return user_choices;
   }
+  function chooseWinner(user_choice, computer_choice) {
+    let result;
 
+    computer_choice = getRandomComputerChoice();
+
+    user_choice = userChoice();
+
+    if (user_choice === "rock") {
+      $(".userRock").show();
+      $(".userScissor").hide();
+      $(".userPaper").hide();
+    } else if (user_choice === "paper") {
+      $(".userPaper").show();
+      $(".userScissor").hide();
+      $(".userRock").hide();
+    } else {
+      $(".userScissor").show();
+      $(".userPaper").hide();
+      $(".userRock").hide();
+    }
+
+    if (computer_choice === "rock") {
+      $(".computerRock").show();
+      $(".computerScissor").hide();
+      $(".computerPaper").hide();
+    } else if (computer_choice === "paper") {
+      $(".computerPaper").show();
+      $(".computerScissor").hide();
+      $(".computerRock").hide();
+    } else {
+      $(".computerScissor").show();
+      $(".computerRock").hide();
+      $(".computerPaper").hide();
+    }
+
+    console.log(user_choice);
+
+    $(".computerChoice").text(computer_choice);
+    // console.log(userChoice());
+
+    if (user_choice == "rock" && computer_choice == "scissors") {
+      result = "User Wins!";
+      totalWins = totalWins + 1;
+    } else if (user_choice == "rock" && computer_choice == "rock") {
+      result = "You Tied, no one wins!";
+      totalTies = totalTies + 1;
+    } else if (user_choice == "rock" && computer_choice == "paper") {
+      result = "You Lost, Computer Wins!";
+      totalLoses = totalLoses + 1;
+    } else if (user_choice == "paper" && computer_choice == "rock") {
+      result = "User Wins!";
+      totalWins = totalWins + 1;
+    } else if (user_choice == "paper" && computer_choice == "scissors") {
+      result = "You Lost, Computer Wins!";
+      totalLoses = totalLoses + 1;
+    } else if (user_choice == "paper" && computer_choice == "paper") {
+      result = "You Tied, no one wins!";
+      totalTies = totalTies + 1;
+    } else if (user_choice == "scissors" && computer_choice == "scissors") {
+      result = "You Tied, no one wins!";
+      totalTies = totalTies + 1;
+    } else if (user_choice == "scissors" && computer_choice == "rock") {
+      result = "You Lost, Computer Wins!";
+      totalLoses = totalLoses + 1;
+    } else if (user_choice == "scissors" && computer_choice == "paper") {
+      result = "User Wins!";
+      totalWins = totalWins + 1;
+    } else {
+      $(".result").append(`<p>Your input is invalid, try again.<p>`);
+    }
+
+    return $(".result").text(result);
+    // use 'result'
+  }
+  totalGames = totalGames + 1;
   let winRate = totalWins / totalGames;
   winRate = winRate.toFixed(2);
-
-  // use 'result'
   $(".ties").text("You have tied" + totalTies + "times");
   $(".loses").text("You have lost" + totalLoses + "times");
   $(".wins").text("You have won" + totalWins + "times");
-  $(".result").text(result);
+
   $(".games").text("You have played" + totalGames + "times");
   $(".winRate").text("Your win rate is" + winRate + "percent");
+  chooseWinner();
 });

@@ -5,3 +5,39 @@
   display: flex;
   justify-content: space-between;
 }
+
+.userPaper {
+  display: none;
+}
+
+.computerPaper {
+  display: none;
+}
+
+.userScissor {
+  display: none;
+}
+
+.computerScissor {
+  display: none;
+}
+
+.userRock {
+  display: none;
+}
+
+.computerRock {
+  display: none;
+}
+
+@keyframes moveUpanDown {
+    0% {
+/*         transform:  translateY(where ever this is in pixels); */
+    }
+    50%{
+/*         transform: translateY(whenever this goes down) ; */
+    }
+    100%{
+/*         transform:  translateY(goes back up to origin); */
+    }
+}
