@@ -62,13 +62,13 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 
 ### Day 4 Goal 1: Compare the user choice and computer choice to determine a winner
 
-- [ ] Write a compound conditional statement that compares the userChoice to the computerChoice
-- [ ] Declare a variable to save the winner of the game
-- [ ] Display the winner to the screen in the result div
+- [x] Write a compound conditional statement that compares the userChoice to the computerChoice
+- [x] Declare a variable to save the winner of the game
+- [x] Display the winner to the screen in the result div
 
 ### Day 4 Goal 2: Increase user experience (BONUS!)
 
-- [ ] Test that your game performs correctly in case of a tie
+- [x] Test that your game performs correctly in case of a tie
 - [ ] Clear the input value once a result is displayed so your game is ready to play again
 
 #### Wrap
