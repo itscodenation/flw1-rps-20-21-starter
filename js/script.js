@@ -51,5 +51,6 @@ $(".play").click(function () {
     $(".result").text("you win!!! computer lost!!!");
   } else {
     $(".result").text("SORRY, NOT A VALID INPUT!!");
+    $(".userChoice").text("N/A");
   }
 });

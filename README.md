@@ -90,7 +90,7 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 
 #### Wrap
 
-- [ ] Commit your changes!
+- [x] Commit your changes!
 
 #### Day 6
 
