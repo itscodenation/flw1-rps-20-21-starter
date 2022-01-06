@@ -1,11 +1,7 @@
-let randomNumber = 0;
-
-$(".play").click(function() {
-  let userInput = $(".input").val();
-  $(".userChoice").text(userInput);
-
+function getRandomComputerChoice() {
   let randomNumber = Math.ceil(Math.random() * 3);
   let computerChoice;
+
   if (randomNumber === 1) {
     $(".computerChoice").text("rock");
     computerChoice = "rock";
@@ -16,6 +12,15 @@ $(".play").click(function() {
     $(".computerChoice").text("scissors");
     computerChoice = "scissors";
   }
+
+  return computerChoice;
+}
+
+$(".play").click(function () {
+  let userInput = $(".input").val();
+  $(".userChoice").text(userInput);
+
+  let computerChoice = getRandomComputerChoice();
 
   if (
     (userInput.toLowerCase() === "rock" &&
@@ -44,5 +49,7 @@ $(".play").click(function() {
       computerChoice.toLowerCase() === "paper")
   ) {
     $(".result").text("you win!!! computer lost!!!");
+  } else {
+    $(".result").text("SORRY, NOT A VALID INPUT!!");
   }
 });

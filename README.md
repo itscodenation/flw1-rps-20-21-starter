@@ -56,7 +56,7 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 
 ### Day 3 Goal 2: Increase user experience (BONUS!)
 
-- [ ] Test for edge cases by ensuring that a result appears if the user does not type an acceptable input
+- [x] Test for edge cases by ensuring that a result appears if the user does not type an acceptable input
 
 ## Day 4
 
@@ -79,14 +79,14 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 
 ### Day 5 Goal 1: Create a function to handle your computer choice logic
 
-- [ ] Write a function called getRandomComputerChoice that does not accept any parameters and returns computerChoice
-- [ ] Move your `Math.random` inside your function
-- [ ] Move your conditional logic that determines the computer choice inside your function
+- [x] Write a function called getRandomComputerChoice that does not accept any parameters and returns computerChoice
+- [x] Move your `Math.random` inside your function
+- [x] Move your conditional logic that determines the computer choice inside your function
 
 ### Day 5 Goal 2: Call your getRandomComputerChoice function
 
-- [ ] Call your function inside your click handler so that it determines the value of your computerChoice variable
-  - [ ] HINT: Your getRandomComputerChoice function works correctly if it returns rock, paper, or scissors when called
+- [x] Call your function inside your click handler so that it determines the value of your computerChoice variable
+- [x] HINT: Your getRandomComputerChoice function works correctly if it returns rock, paper, or scissors when called
 
 #### Wrap
 
