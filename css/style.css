@@ -1,5 +1,6 @@
 .row {
   text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 .choices {
   display: flex;
@@ -8,27 +9,50 @@
 
 .userPaper {
   display: none;
+  width: 200px;
+  height: 200px;
 }
 
 .computerPaper {
   display: none;
+  width: 200px;
+  height: 200px;
 }
 
 .userScissor {
   display: none;
+  width: 200px;
+  height: 200px;
 }
 
 .computerScissor {
   display: none;
+  width: 200px;
+  height: 200px;
 }
 
 .userRock {
   display: none;
+  width: 200px;
+  height: 200px;
 }
 
 .computerRock {
   display: none;
+  width: 200px;
+  height: 200px;
 }
+
+body {
+  background: url("https://cdn.glitch.global/19eb4570-f75b-462d-a5e0-d2b8108fa4bf/High_resolution_wallpaper_background_ID_77700451514-692x376.jpg?v=1641423913382");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+html {
+  height: 100%;
+}
+
 
 @keyframes moveUpanDown {
     0% {
