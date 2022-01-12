@@ -3,15 +3,17 @@
   <head>
     <title>RPS Game</title>
     <!-- Link CSS here -->
-    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
   </head>
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
   <body>
     <div class="row">
-      <h1>Rock Paper Scissors</h1>
+      <h1 class="text">Rock Paper Scissors</h1>
       <img src="http://www.coltnews.com/wp-content/uploads/2016/04/RPS.png" />
 
-      <h3>Please Submit Your Choice Below</h3>
+      <h3 class="text">Please Submit Your Choice Below</h3>
       <div>
         <input class="input" />
         <button class="play">play!</button>
@@ -19,20 +21,26 @@
 
       <div class="choices" class="row">
         <div>
-          <h4>User Choice</h4>
+          <h4 class="text">User Choice</h4>
           <p class="userChoice"></p>
         </div>
         <div>
-          <h4>Computer Choice</h4>
+          <h4 class="text">Computer Choice</h4>
           <p class="computerChoice"></p>
         </div>
       </div>
-      <div class="result"></div>
+      <div class="result"></div> 
+
+      <div class="winstreak">Win Streak</div>
+    
+      <div class="winstreak_number"></div>
+      
     </div>
 
+    
     <!-- Link JQuery here -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <!-- Link script.js here -->
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
