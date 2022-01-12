@@ -1,0 +1,19 @@
+body {
+  background-color: #9c6644;
+}
+.row {
+    text-align: center;
+  }
+  .choices {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.text {
+  font-family: 'Odibee Sans', cursive;
+  color: #7f5539 
+}
+
+.winstreak {
+  margin-top: 50px;
+}
