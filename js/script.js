@@ -1,14 +1,19 @@
+//Global Variables
 let randomNumber;
 let computerChoice;
-$(".play").click(function() {
-  let choice = $(".input").val();
-  if (choice === "rock" || choice === "paper" || choice === "scissors") {
-    $(".userChoice").text(choice);
-  } else {
-    $(".userChoice").text("Invalid Input");
-  }
+
+$(".play").click(function () {
+
+  //Generate computer's choice
+  computerChoice = getRandomComputerChoice();
+  $(".computerChoice").text(computerChoice);
+
+  $(".result").append(winner);
+  
+});
+
+function getRandomComputerChoice() {
   randomNumber = Math.random() * 3;
-  //$(".computerChoice").append(randomNumber);
   if (randomNumber < 1) {
     computerChoice = "rock";
   } else if (randomNumber < 2) {
@@ -16,29 +21,52 @@ $(".play").click(function() {
   } else {
     computerChoice = "scissors";
   }
-  $(".computerChoice").text(computerChoice);
+
+  return computerChoice;
+}
+
+function chooseWinner(winner, choice) {
+  
+  choice = $(".input").val();
+  if (choice === "rock" || choice === "paper" || choice === "scissors") {
+    $(".userChoice").text(choice);
+  } else {
+    $(".userChoice").text("Invalid Input");
+  }
+  
   //draw
   if (choice === computerChoice) {
+    winner = "";
     $(".result").text("Draw");
   }
+
   //lose
   if (choice === "rock" && computerChoice === "paper") {
+    winner = " Computer";
     $(".result").text("YOU LOSE!");
   }
   if (choice === "paper" && computerChoice === "scissors") {
+    winner = " Computer";
     $(".result").text("YOU LOSE!");
   }
   if (choice === "scissors" && computerChoice === "rock") {
+    winner = " Computer";
     $(".result").text("YOU LOSE!");
   }
+
   //win
   if (choice === "rock" && computerChoice === "scissors") {
+    winner = " User";
     $(".result").text("YOU WIN!");
   }
   if (choice === "paper" && computerChoice === "rock") {
+    winner = " User";
     $(".result").text("YOU WIN!");
   }
   if (choice === "scissors" && computerChoice === "paper") {
+    winner = " User";
     $(".result").text("YOU WIN!");
   }
-});
+  
+  return winner;
+}

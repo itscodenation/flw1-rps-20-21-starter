@@ -10,14 +10,14 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 
 #### Planning
 
-- [ ] Complete the project planning document
+- [X] Complete the project planning document
 
 #### GitHub Set-Up
 
 - [x] Go to the repository at https://github.com/itscodenation/rockpaperscissors
-- [ ] Fork this repository to your Github account and import to a new workspace
-- [ ] Link and commit your changes
-- [ ] Make your site live on GitHub Pages
+- [?] Fork this repository to your Github account and import to a new workspace
+- [?] Link and commit your changes
+- [X] Make your site live on GitHub Pages
 
 #### Code Walkthrough
 
@@ -62,35 +62,35 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 
 ### Day 4 Goal 1: Compare the user choice and computer choice to determine a winner
 
-- [ ] Write a compound conditional statement that compares the userChoice to the computerChoice
-- [ ] Declare a variable to save the winner of the game
-- [ ] Display the winner to the screen in the result div
+- [x] Write a compound conditional statement that compares the userChoice to the computerChoice
+- [x] Declare a variable to save the winner of the game
+- [?] Display the winner to the screen in the result div
 
 ### Day 4 Goal 2: Increase user experience (BONUS!)
 
-- [ ] Test that your game performs correctly in case of a tie
-- [ ] Clear the input value once a result is displayed so your game is ready to play again
+- [x] Test that your game performs correctly in case of a tie
+- [?] Clear the input value once a result is displayed so your game is ready to play again
 
 #### Wrap
 
-- [ ] Commit your changes!
+- [X] Commit your changes!
 
 #### Day 5
 
 ### Day 5 Goal 1: Create a function to handle your computer choice logic
 
-- [ ] Write a function called getRandomComputerChoice that does not accept any parameters and returns computerChoice
-- [ ] Move your `Math.random` inside your function
-- [ ] Move your conditional logic that determines the computer choice inside your function
+- [x] Write a function called getRandomComputerChoice that does not accept any parameters and returns computerChoice
+- [x] Move your `Math.random` inside your function
+- [x] Move your conditional logic that determines the computer choice inside your function
 
 ### Day 5 Goal 2: Call your getRandomComputerChoice function
 
-- [ ] Call your function inside your click handler so that it determines the value of your computerChoice variable
-  - [ ] HINT: Your getRandomComputerChoice function works correctly if it returns rock, paper, or scissors when called
+- [x] Call your function inside your click handler so that it determines the value of your computerChoice variable
+  - [x] HINT: Your getRandomComputerChoice function works correctly if it returns rock, paper, or scissors when called
 
 #### Wrap
 
-- [ ] Commit your changes!
+- [x] Commit your changes!
 
 #### Day 6
 
