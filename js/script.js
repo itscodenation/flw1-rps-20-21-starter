@@ -36,6 +36,7 @@ function chooseWinner(userInput, computerChoice) {
     (userInput.toLowerCase() === "paper" &&
       computerChoice.toLowerCase() === "scissors")
   ) {
+    winner = computerChoice; 
     $(".result").text("you lose ☹ computer wins!!!");
   } else if (
     (userInput.toLowerCase() === "rock" &&
@@ -45,6 +46,7 @@ function chooseWinner(userInput, computerChoice) {
     (userInput.toLowerCase() === "scissors" &&
       computerChoice.toLowerCase() === "paper")
   ) {
+    winner = userInput;
     $(".result").text("you win!!! computer lost!!!");
   } else {
     $(".result").text("SORRY, NOT A VALID INPUT!!");
@@ -60,4 +62,5 @@ $(".play").click(function () {
 
   let computerChoice = getRandomComputerChoice();
   let winner = chooseWinner(userInput, computerChoice);
+  console.log(winner);
 });
