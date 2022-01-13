@@ -3,12 +3,23 @@ let randomNumber;
 let computerChoice;
 
 $(".play").click(function () {
-
+  
+  //User choice
+  let choice = $(".input").val();
+  choice = choice.toLowerCase();
+  if (choice === "rock" || choice === "paper" || choice === "scissors") {
+    $(".userChoice").text(choice);
+  } else {
+    $(".userChoice").text("Invalid Input");
+  }
+  
   //Generate computer's choice
   computerChoice = getRandomComputerChoice();
   $(".computerChoice").text(computerChoice);
 
-  $(".result").append(winner);
+  chooseWinner(choice, computerChoice)
+  
+  $(".input").val("");
   
 });
 
@@ -25,14 +36,9 @@ function getRandomComputerChoice() {
   return computerChoice;
 }
 
-function chooseWinner(winner, choice) {
+function chooseWinner(choice, computerChoice) {
   
-  choice = $(".input").val();
-  if (choice === "rock" || choice === "paper" || choice === "scissors") {
-    $(".userChoice").text(choice);
-  } else {
-    $(".userChoice").text("Invalid Input");
-  }
+  let winner;
   
   //draw
   if (choice === computerChoice) {
@@ -70,3 +76,5 @@ function chooseWinner(winner, choice) {
   
   return winner;
 }
+
+
