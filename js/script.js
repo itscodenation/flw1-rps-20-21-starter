@@ -12,7 +12,7 @@ $(".play").click(function () {
   } else {
     $(".userChoice").text("Invalid Input");
   }
-  
+
   //Generate computer's choice
   computerChoice = getRandomComputerChoice();
   $(".computerChoice").text(computerChoice);
