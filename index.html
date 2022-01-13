@@ -10,26 +10,33 @@
     <div class="row">
       <h1>Rock Paper Scissors</h1>
       <img src="http://www.coltnews.com/wp-content/uploads/2016/04/RPS.png" />
-
+  <div>
+    <h3 class='ts'>Score: </h3>
+    <p class='score'>Wins and Losses</p>
+      </div>
       <h3>Please Submit Your Choice Below</h3>
       <div>
-        <input class="input" />
+        <input class="input" type='radio' name='option' value='rock' <label>Rock</label><br>
+        <input class="input" type='radio' name='option' value='paper' <label>Paper</label><br>
+        <input class="input" type='radio' name='option' value='scissors' <label>Scissor</label><br><br>
         <button class="play">play!</button>
       </div>
 
       <div class="choices" class="row">
-        <div>
+        <div class='user'>
           <h4>User Choice</h4>
+          <img class='userimage' height='50px'src=''>
           <p class="userChoice"></p>
         </div>
-        <div>
+        <div class='computer'>
           <h4>Computer Choice</h4>
+          <img class='cpimage'height='50px'src=''>
           <p class="computerChoice"></p>
         </div>
       </div>
       <div class="result"></div>
+        <p class='results'></p>
     </div>
-
     <!-- Link JQuery here -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <!-- Link script.js here -->
