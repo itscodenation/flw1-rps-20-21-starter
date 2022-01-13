@@ -16,11 +16,8 @@ function getRandomComputerChoice() {
   return computerChoice;
 }
 
-$(".play").click(function () {
-  let userInput = $(".input").val();
-  $(".userChoice").text(userInput);
-
-  let computerChoice = getRandomComputerChoice();
+function chooseWinner(userInput, computerChoice) {
+  let winner;
 
   if (
     (userInput.toLowerCase() === "rock" &&
@@ -53,4 +50,14 @@ $(".play").click(function () {
     $(".result").text("SORRY, NOT A VALID INPUT!!");
     $(".userChoice").text("N/A");
   }
+
+  return winner;
+}
+
+$(".play").click(function () {
+  let userInput = $(".input").val();
+  $(".userChoice").text(userInput);
+
+  let computerChoice = getRandomComputerChoice();
+  let winner = chooseWinner(userInput, computerChoice);
 });
